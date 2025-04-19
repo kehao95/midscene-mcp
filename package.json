@@ -1,0 +1,28 @@
+{
+  "name": "midscene-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP Server for Midscene Browser Automation",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsc && node dist/server.js"
+  },
+  "keywords": [
+    "mcp",
+    "midscene",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@midscene/web": "^0.15.0",
+    "@modelcontextprotocol/sdk": "^1.10.1",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "typescript": "^5.4.5"
+  }
+}
