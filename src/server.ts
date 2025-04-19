@@ -192,7 +192,6 @@ async function main() {
   // Start the server over stdio
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.log("Server started");
 }
 
 // Run main
