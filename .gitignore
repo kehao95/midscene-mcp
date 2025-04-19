@@ -1,5 +1,6 @@
 .*
-ref_doc
+ref_doc/
+midscene_run/
 node_modules
 dist
 
